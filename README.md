@@ -1,1 +1,3 @@
-# Gameplay_Asset_Tools-Ball-Version-
+# Gameplay Asset Tools
+Gameplay Asset Tools is a basic collections of tools created to help out developers and designers to allow them certain functionalities.
+This version contains a package of : Player controller , Camera controller and the Snapshot Manager/Viewer. The player controller is a ball oriented type of player and comes with the basic rolling functionality which camera direction based, as well as able to jump when needed. Jump variation exist in two different versions: idle and forward direction. Idle will hop on Y-Axis while  forward will follow the relative direction of the ball and create a ballistic type of movement jump with a more explosive force.
