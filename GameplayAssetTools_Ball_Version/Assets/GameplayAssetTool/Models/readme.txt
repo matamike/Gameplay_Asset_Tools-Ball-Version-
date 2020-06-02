@@ -1,0 +1,1 @@
+Crate prop was created using Blender.

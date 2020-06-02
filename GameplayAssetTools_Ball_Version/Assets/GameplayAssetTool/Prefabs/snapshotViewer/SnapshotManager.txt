@@ -1,0 +1,36 @@
+Description:
+Snapshot Manager asset is designed to capture in game footage with better integration. 
+The main function is to capture snapshots , review them and either save them or dispose them while playing or play testing.
+You can also browse saved snapshots from your project's folder while playing. 
+The image directory is updated in real time while saving snapshots through your playtime.
+
+
+Overview:
+1)Supports real time (non-delayed) image capture of your in game experience.
+2)Supports temporarily saves images in each of your game sessions and you can either decide which to delete and which to save.
+3)Supports browsing all of your project's snapshots taken within a different panel.
+4)Manual erase of your snapshots through the folder will not affect its functionality since it is fully integrated to handle all possible manual actions/mistakes you might commit.
+5)Create and apply new directories and save them as default automatically for different snapshots sequences.
+
+Instructions:
+1)Drag the prefab from the asset's folder into your hierarchy 
+2) Check the tags for each element within :
+	a) ImageHolder -> Tag : Projector
+	b) ImageTag -> Tag: Label
+	c) ImageSequencer -> Tag: Sequencer
+	d) InputField -> Tag: InputSeq
+	e) StartingMSG -> Tag: InputSlot
+	
+3)The Snapshot Viewer is now ready to use. (Note: Do not delete directly from folder the snapshots while play testing.)
+
+Controls:
+1) Press "P" to capture snapshots.
+2) Press "I" to open the main menu.
+3) Press "F1" to open temporal snapshot holder (Contains all the current snapshots taken.)
+4) Press "F3/F4" to browse current snapshots taken with "Left/Right" orientation.
+5) Press "X" to save active snapshot in the temporal snapshot holder panel.
+6) Press "Del" to delete active snapshot in the temporal snapshot holder panel.
+7) Press the button "Select Folder" to select a new save path directory for your snapshots(Note : The default directory for your snapshots is the root project directory.)
+8) Press "K/L" to browse saved images on the active save directory while main menu is active in the scene.(Note: if the images don't appear automatically press "I" again to refresh images in case you saved new images)
+9) Press "Esc" to exit temporal snapshot holder.
+10) Press "Esc" to exit main menu to return to your game.(Note that camera's orientation controls are locked while SnapshotViewer is active on the scene.)

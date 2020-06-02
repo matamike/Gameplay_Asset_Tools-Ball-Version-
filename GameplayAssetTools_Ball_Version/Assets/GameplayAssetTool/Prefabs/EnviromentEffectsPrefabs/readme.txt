@@ -1,0 +1,1 @@
+The "clubLightsProjector" offers a double sided lighting mode while rotating along Y-Axis and bring special lighting effects to your scene.

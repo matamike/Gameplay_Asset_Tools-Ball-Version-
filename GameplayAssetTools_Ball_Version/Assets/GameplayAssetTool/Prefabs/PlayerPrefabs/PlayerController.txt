@@ -1,0 +1,22 @@
+Description:
+Player Controller is a generic asset which operates the classic handling techniques for movement,crouch and jump.
+The asset contains a ball model created to demonstrate the player controller.
+
+Overview:
+1)Supports classic W,A,S,D movement.
+3)Supports Bounce action while idle and when you roll the ball.
+4)Supports motion alignment with camera's perspective orientation.
+
+Setting Up:
+1)The target object which is selected to be the controlled player must have the "Player" tag.
+2)Any unassigned materials for player are located inside the Materials Folder 
+  (Note: this instruction applies in case of import glitch to your project.)
+
+Controls:
+1) Roll Forward -> Key: W
+2) Roll Left -> Key: A
+3) Roll Right -> Key: D
+4) Roll Backwards -> Key: S
+5) Roll  Forward Left Movement -> Key: W + A
+6) Roll  Forward Left Movement -> Key: W + D
+7) Jump (Idle/Rolling Modes)   -> Key: Space (while rolling forward or standing idle.)

@@ -1,0 +1,29 @@
+Description:
+TPCamera is a third person camera asset created to be used in any kind of third person game.
+
+Overview: 
+1)Supports vertical and horizontal axis mouse rotation.
+2)Supports camera reposition focus on target loss.
+3)Supports 3 states of camera distance (2,4,6 meters) 
+4)Supports dynamic distance scaling with minimum distance of 2 meters . Maximum distance is user defined. 
+ (Note: The dynamic distance mode works when IsFixedDistance is off.)
+5)Supports dynamic adjustments of vertical and horizontal mouse speed.
+
+Instructions: 
+1)Select the Prefab TPCamera & TPCameraTarget and drag them into your scene. 
+ 
+ 1.1)TPCamera represents the active game camera. 
+ (Note: if the TPCamera Prefab doesn't have the tag "DepthTest" create that tag from property inspector and apply it.)
+ 
+ 1.2)TPCameraTarget represents the target camera follows. Place the TPCameraTarget into your designated scene. 
+ (Note: if the TPCameraTarget doesn't have the tag "Anchor" create that tag from property inspector and apply it.)
+ 
+2)Objects that can be affected with the camera reposition focus on target loss must be tagged with the tag "Barrier" and objects which are part of the field you explore must be tagged with the tag "Terrain".  
+
+3)Fixed Distance states of Camera Mode : Press (V key) to switch between the 3 distance states . 
+  With each press you switch with the order 2m->4m->6m. Your default initial state is 6meters so according to the order mentioned you will set back to 2meter distance.
+
+4)Free Distance state of Camera Mode: Use the scroll wheel of your mouse to adjust the distance dynamically. 
+  Scrolling the wheel up zooms in and scrolling the wheel down zooms out with maximum distance the number you chose from the inspector options.
+
+5)Vertical and horizontal mouse speed can be set via property inspector to the desired value.

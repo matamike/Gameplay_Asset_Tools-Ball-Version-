@@ -1,0 +1,2 @@
+Curtain prop offers a good simulated wind movement from active player's movement through it. Assign the component of Capsule or Sphere Collider to "CurtainFront" and "CurtainBack" objects inside
+the curtain hierarchy in order to use it in your scene.
