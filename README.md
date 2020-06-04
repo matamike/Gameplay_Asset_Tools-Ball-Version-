@@ -12,29 +12,30 @@ Earlier versions had been initially developed in Unity 5.0.0f4. The asset has al
 It is strongly recommended to use it from version 5.6.5f1 and later.
 
 
-Instructions: 
-	How to import the package (Only Applicable if the tool kit comes in a custom package form / reuse case in multiple projects):
-		Step 1: While in Unity Editor go to Assets/Import Package/Custom Package...(If the project has been exported as a package) or
-			 While in Unity Editor go to File/Open Project and press "Open to find the location of the project in your computer. Note:If the          project is not exported as a package ignore Step 2.
- 
-		Step 2: Find the Asset Package which contains the files associated and import it. 
-		
-	Setup: 
-		Test the Assets:
-		Step 1: The following package contains an already prepared demo scene to test the asset's functionality and features.Navigate       
-    through the scene folder within the asset folder "GameplayAssetTool" and load "SampleScene".
-		(Important Note: Before loading demo scene or any other scene which includes these assets please check the project directory after 
-    importing the package for a ".txt" file with the name "lastDirectorySaveTarget".)
-			 
-    If that file exists please remove any text ,save the file and exit afterwards.Do not attempt playtest with the snapshotViewer 
-    content active if this isn't resolved properly.
-		If the file doesn't exist you don't need to take further action ,it will automatically be created on your first playtest.)  
-			
-		Step 2: Navigate through Prefabs folder within the "GameplayAssetTool" folder and read the ".txt" file for each asset to help you 
-    understand how to properly use it and all of their features.
-		(Note 1: Each of these assets is independent to each other.)
-		(Note 2: If you wish to use "snapshotViewer" as a standalone asset you need to have an active camera to your desired scene.)
+Instructions:
 
-		Step 3: The folder "PlayerPrefabs" contains a player controller with a ball. 		
+How to import the package (Only Applicable if the tool kit comes in a custom package form / reuse case in multiple projects):				
+Step 1: While in Unity Editor go to Assets/Import Package/Custom Package...(If the project has been exported as a 				package) or While in Unity Editor go to File/Open Project and press "Open to find the location of the project in your 			computer. 
+	Note:If the project is not exported as a package ignore Step 2.
+ 
+Step 2: Find the Asset Package which contains the files associated and import it. 
+		
+Setup: 
+	Test the Assets:
+	
+Step 1: The following package contains an already prepared demo scene to test the asset's functionality and features.
+	Navigate through the scene folder within the asset folder "GameplayAssetTool" and load "SampleScene".
+	(Important Note: Before loading demo scene or any other scene which includes these assets please check the project directory 		after importing the package for a ".txt" file with the name "lastDirectorySaveTarget".)
+			 
+   If that file exists please remove any text ,save the file and exit afterwards.Do not attempt playtest with the snapshotViewer 
+   content active if this isn't resolved properly.
+   If the file doesn't exist you don't need to take further action ,it will automatically be created on your first playtest.)  
+		
+Step 2: Navigate through Prefabs folder within the "GameplayAssetTool" folder and read the ".txt" file for each asset to help you 
+    understand how to properly use it and all of their features.
+    (Note 1: Each of these assets is independent to each other.)
+    (Note 2: If you wish to use "snapshotViewer" as a standalone asset you need to have an active camera to your desired scene.)
+
+Step 3: The folder "PlayerPrefabs" contains a player controller with a ball. 		
 		
 Important Note: Read documentation texts in each of the specified folders containing the assets for further understanding and proper use(Note: Main Assets are located within the package's folder "Prefabs").
